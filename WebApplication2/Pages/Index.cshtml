@@ -1,0 +1,95 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Fase de Seleção</h1>
+    <p>Selecione 8 filmes que você deseja que entrem na competição e depois pressione o botão Gerar Meu Campeonato.</p>
+</div>
+
+
+<button type="submit" class="btn btn-primary" style="margin: 50px">Gerar Meu Campeonato</button>
+
+
+<table class="" style="" align="center">
+    <tr style="margin: 20px">
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox0" name="checkbox0">
+            <label for="checkbox0">@TempData["0"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+            <label for="checkbox1">@TempData["1"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+            <label for="checkbox2">@TempData["2"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox3" name="checkbox3">
+            <label for="checkbox3">@TempData["3"]</label>
+        </td>
+    </tr>
+    <tr style="margin: 20px">
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox0" name="checkbox0">
+            <label for="checkbox0">@TempData["4"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+            <label for="checkbox1">@TempData["5"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+            <label for="checkbox2">@TempData["6"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox3" name="checkbox3">
+            <label for="checkbox3">@TempData["7"]</label>
+        </td>
+    </tr>
+    <tr style="margin: 20px">
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox0" name="checkbox0">
+            <label for="checkbox0">@TempData["8"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+            <label for="checkbox1">@TempData["9"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+            <label for="checkbox2">@TempData["10"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox3" name="checkbox3">
+            <label for="checkbox3">@TempData["11"]</label>
+        </td>
+    </tr>
+    <tr style="margin: 20px">
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox0" name="checkbox0">
+            <label for="checkbox0">@TempData["12"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+            <label for="checkbox1">@TempData["13"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+            <label for="checkbox2">@TempData["14"]</label>
+        </td>
+        <td class="col-md-3">
+            <input type="checkbox" id="checkbox3" name="checkbox3">
+            <label for="checkbox3">@TempData["15"]</label>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
